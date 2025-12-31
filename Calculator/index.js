@@ -32,7 +32,7 @@ buttons.forEach(btn => {
             return;
         }
 
-        // INPUT
+        
         expression += value;
         display.textContent = expression;
     });
