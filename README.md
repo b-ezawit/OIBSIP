@@ -15,6 +15,11 @@ This repository contains the projects I completed as part of the **AICTE Oasis I
 - Built using **HTML**, **CSS**, and **JavaScript**.
 - Allows users to **add, delete, and mark tasks as completed**.
 - Demonstrates dynamic DOM manipulation and basic CRUD functionality.
+- 
+### 3. Personal Portfolio
+- Built using **HTML** and **CSS**.  
+- Showcases personal projects, skills, and contact information.  
+- Features a clean, responsive design suitable for desktop and mobile.  
 
 ---
 
