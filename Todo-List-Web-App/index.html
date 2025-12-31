@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20190330/ourlarge/pngtree-vector-task-icon-png-image_894760.jpg" sizes="any">
+
+</head>
+<body>
+
+<div class="page-center">
+    <div class="card">
+
+        <h1 class="title-gradient">MY TO DO LIST</h1>
+
+        <div class="input-row">
+            <input type="text" class="input input-full" id="input" placeholder="Enter task...">
+            <button class="btn btn-gradient add">ADD</button>
+        </div>
+
+        <div class="status-grid">
+            <div class="status-box">
+                <span class="status-blue" id="inprogressCount">In Progress: </span>
+            </div>
+            <div class="status-box">
+                <span class="status-blue" id="doneCount">Done: </span>
+            </div>
+            
+        </div>
+
+        <div class="tasks-container">
+            <div class="task-column">
+                <h2 class="section-label">TO-DO</h2>
+                <div id="todo-list"></div>
+            </div>
+                    
+
+            <div class="task-column">
+                <h2 class="section-label">DONE</h2>
+                <div id="done-list"></div>
+            </div>
+
+        </div>
+
+        <footer class="theme-footer">
+            <button id="reset" class="btn btn-gradient clear">Clear</button>
+            <br>
+            <br>
+            <button class="theme-toggle" id="themeBtn">
+                <div class="toggle-circle">
+                    <span class="moon-icon">☾</span>
+                </div>
+                <span class="toggle-text dark">Dark Mode</span>
+            </button>
+        </footer>
+
+
+    </div>
+</div>
+<script type="module" src="scripts/main.js"></script>
+</body>
+</html>
+
