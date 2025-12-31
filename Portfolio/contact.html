@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Elman Bez Portfolio</title>
+
+    <!-- Link to main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link to font family -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Link to favicon-->
+    <link rel="icon" type="image/png" href="Assets\images\favicon.png" />
+  </head>
+  <body>
+    <!-- Reusable Header -->
+    <header class="site-header">
+      <nav class="navbar">
+        <div class="logo" aria-label="Site Logo">
+          <img src="Assets/images/logo.png" alt="Site Logo" class="logo-img" />
+          <!-- Replace with your logo -->
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">HOME</a></li>
+          <li><a href="about.html" class="nav-link">ABOUT</a></li>
+          <li><a href="projects.html" class="nav-link">PROJECTS</a></li>
+          <li><a href="resume.html" class="nav-link">RESUME</a></li>
+          <li>
+            <a href="contact.html" class="nav-link" aria-current="page"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <div class="contact-container">
+        <section aria-label="Get In Touch" class="contact-section">
+          <h1>Get In Touch</h1>
+          <p>
+            I’m always open to collaborating on exciting projects, internships,
+            or freelance opportunities. Feel free to reach out, and I’ll get
+            back to you as soon as possible.
+          </p>
+          <br />
+
+          <ul class="contact-list">
+            <li class="contact-item">
+              <img
+                src="Assets\icons\location.png"
+                alt="Address Icon"
+                class="contact-icon"
+              />
+              <!-- Placeholder icon -->
+              <span class="contact-text">
+                <strong>Address</strong><br />Addis Ababa, Ethiopia
+              </span>
+            </li>
+            <li class="contact-item">
+              <img
+                src="Assets\icons\telephone-call.png"
+                alt="Phone Icon"
+                class="contact-icon"
+              />
+              <!-- Placeholder icon -->
+              <span class="contact-text">
+                <strong>Phone Number</strong><br />
+                +251-912-345-678
+              </span>
+            </li>
+            <li class="contact-item">
+              <img
+                src="Assets\icons\email.png"
+                alt="Email Icon"
+                class="contact-icon"
+              />
+              <!-- Placeholder icon -->
+              <span class="contact-text">
+                <strong>E-Mail</strong><br />
+                elman.bez@example.com
+              </span>
+            </li>
+          </ul>
+
+          <hr />
+
+          <div class="social-links">
+            <strong>Follow Me:</strong>
+            <a href=""
+              ><img
+                src="Assets\icons\telegram.png"
+                alt="Telegram Icon"
+                class="social-icon"
+            /></a>
+            <a href=""
+              ><img
+                src="Assets\icons\instagram.png"
+                alt="Instagram Icon"
+                class="social-icon"
+            /></a>
+            <a href="">
+              <img
+                src="Assets\icons\github.png"
+                alt="Github Icon"
+                class="social-icon"
+            /></a>
+            <a href=""
+              ><img
+                src="Assets\icons\linkedin.png"
+                alt="linked in"
+                class="social-icon"
+            /></a>
+          </div>
+        </section>
+
+        <section aria-label="Send a Message" class="contact-form-section">
+          <form class="contact-form">
+            <h1>Send a Message</h1>
+
+            <input type="text" id="name" name="name" placeholder="Name" /><br />
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail Address"
+            /><br />
+
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+            ></textarea
+            ><br />
+
+            <p>
+              If you have a project idea, collaboration opportunity, or just
+              want to say hello, fill out the form and I’ll respond promptly.
+            </p>
+
+            <button type="submit" class="nav-button">Submit</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <!-- Reusable Footer -->
+    <footer class="site-footer">
+      <p>© 2025 Elman Bez | Fictional Portfolio Project</p>
+    </footer>
+  </body>
+</html>
