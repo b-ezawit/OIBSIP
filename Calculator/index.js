@@ -31,8 +31,6 @@ buttons.forEach(btn => {
             display.textContent = expression;
             return;
         }
-
-        
         expression += value;
         display.textContent = expression;
     });
