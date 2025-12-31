@@ -1,6 +1,6 @@
 # Simple Calculator
 
-A basic calculator built with **HTML**, **CSS**, and **JavaScript** that performs simple arithmetic operations: addition, subtraction, multiplication, and division.
+A basic calculator built with **HTML**, **CSS**, and **JavaScript** that performs simple arithmetic operations: addition, subtraction, multiplication, division and modulo.
 
 ## Features
 - Clean and responsive interface
